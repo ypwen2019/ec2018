@@ -1,0 +1,94 @@
+body {
+    color: #000;
+    background-color: #f7f7f7;
+    font-family: "Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+}
+body, dd, dl, h1, h2, h3, h4, h5, h6, ol, p, ul {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+body, dd, dl, h1, h2, h3, h4, h5, h6, ol, p, ul {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+body {
+    display: block;
+}
+div h3 {
+    display:block;
+    height: 45px;
+    font-size: 32px;
+}
+div h3 span {
+    float: left;
+}
+
+div h3 span:first-child::before {
+    content: '';
+    display: block;
+    float: left;
+    width: 45px;
+    height: 45px;
+    background: url(https://img.alicdn.com/tfs/TB1ZrkgSXXXXXacXFXXXXXXXXXX-100-100.png) 50% 50% no-repeat;
+    background-size: 32px 32px;
+}
+@media only screen and (min-device-width: 1024px)
+div h3::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    height: 2px;
+    width: 60%;
+    background-color: #e11e11;
+}
+div h3 span:last-child {
+    float: right;
+    color: #9b9b9b;
+    font-weight: 400;
+}
+
+.opened section {
+    position: relative;
+    float: left;
+    margin: 60px 20px 0 0;
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 230px;
+    height: 282px;
+    background-color: rgb(173, 125, 125);
+}
+.opened section address {
+    margin-top: 20px;
+    color: #9f9f9f;
+    font-size: 14px;
+}
+.opened section div {
+    margin-top: 20px;
+    color: #9f9f9f;
+    font-size: 14px;
+}
+.opened section em {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    padding: 0 12px;
+    height: 30px;
+    color: #fff;
+    background-color: #019fff;
+    font-weight: 400;
+    line-height: 30px;
+}
+.opened section h4 {
+    border-bottom: 1px solid #ececec;
+    height: 70px;
+    font-size: 20px;
+    line-height: 70px;
+    text-align: right;
+}
