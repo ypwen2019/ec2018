@@ -38,7 +38,12 @@ div h3 span:first-child::before {
     background: url(https://img.alicdn.com/tfs/TB1ZrkgSXXXXXacXFXXXXXXXXXX-100-100.png) 50% 50% no-repeat;
     background-size: 32px 32px;
 }
-@media only screen and (min-device-width: 1024px)
+
+.title-container {
+    position: relative;
+}
+
+/* @media only screen and (min-device-width: 1024px) */
 div h3::after {
     content: '';
     position: absolute;
